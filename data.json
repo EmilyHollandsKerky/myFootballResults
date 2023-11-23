@@ -1,0 +1,22 @@
+{
+  "games": [
+    {
+      "team1": "Manchester United",
+      "team2": "Arsenal",
+      "goalsTeam1": 2,
+      "goalsTeam2": 1
+    },
+    {
+      "team1": "West Ham United",
+      "team2": "Manchester United",
+      "goalsTeam1": 0,
+      "goalsTeam2": 3
+    },
+    {
+      "team1": "Manchester United",
+      "team2": "Crystal Palace",
+      "goalsTeam1": 2,
+      "goalsTeam2": 1
+    }
+  ]
+}
