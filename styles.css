@@ -1,18 +1,21 @@
 body {
+  background-image: url(images/Manu_stadium.jpg);
   background-color: gray;
-}
-
-.bg-green {
-  background-color: darkslategray;
-  margin: 40px;
-  padding: 5px;
-  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .text-white {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   font-family: "Geneva, Verdana, sans-serif";
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .game {

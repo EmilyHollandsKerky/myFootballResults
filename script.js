@@ -3,12 +3,11 @@ document.body.onload = initialize;
 async function initialize() {
   const json = await readJsonData();
   const gamesArray = json["games"];
-  addHeaderContainerToDocument();
+  //addHeaderContainerToDocument();
   for (let i = 0; i < gamesArray.length; i++) {
     showGame(gamesArray[i]);
   }
 }
-
 function showGame(singleGame) {
   const gameContainer = document.createElement("div");
   gameContainer.classList.add("game");
@@ -24,7 +23,7 @@ function showGame(singleGame) {
   goalsContainer.innerText = `${singleGame["goalsTeam1"]} : ${singleGame["goalsTeam2"]}`;
   gameContainer.appendChild(goalsContainer);
 }
-
+/*
 function addHeaderContainerToDocument() {
   // Wir erstellen das HTML Element "div" und weisen es der Kontante Container zu
   const container = document.createElement("div");
@@ -33,8 +32,8 @@ function addHeaderContainerToDocument() {
   // Wir weisen der Eigenschaft InnerText des Containers den Wert "hello football World" zu
   container.innerText = "Hello  Football World!";
   //Wir rufen die Funktion appendChild des Document.Body auf und übergeben den Container als Wert
-  document.body.appendChild(container);
-}
+  document.body.appendChild(container); 
+} */
 
 async function readJsonData() {
   const response = await fetch("./data.json");
