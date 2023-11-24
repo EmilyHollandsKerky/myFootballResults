@@ -1,22 +1,32 @@
 {
   "games": [
     {
+      "date": "11.11.2023",
       "team1": "Manchester United",
-      "team2": "Arsenal",
-      "goalsTeam1": 2,
-      "goalsTeam2": 1
-    },
-    {
-      "team1": "West Ham United",
-      "team2": "Manchester United",
+      "team2": "Manchester City",
       "goalsTeam1": 0,
       "goalsTeam2": 3
     },
     {
-      "team1": "Manchester United",
-      "team2": "Crystal Palace",
-      "goalsTeam1": 2,
+      "date": "4.11.2023",
+      "team1": "FC Fullham",
+      "team2": "Manchester United",
+      "goalsTeam1": 0,
       "goalsTeam2": 1
+    },
+    {
+      "date": "29.10.2023",
+      "team1": "Manchester United",
+      "team2": "Luton Town",
+      "goalsTeam1": 1,
+      "goalsTeam2": 0
+    },
+    {
+      "date": "21.10.2023",
+      "team1": "Sheffield United",
+      "team2": "Manchester United",
+      "goalsTeam1": 1,
+      "goalsTeam2": 2
     }
   ]
 }
