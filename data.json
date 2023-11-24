@@ -27,6 +27,13 @@
       "team2": "Manchester United",
       "goalsTeam1": 1,
       "goalsTeam2": 2
+    },
+    {
+      "date": "7.10.2023",
+      "team1": "Manchester United",
+      "team2": "FC Brentford",
+      "goalsTeam1": 2,
+      "goalsTeam2": 1
     }
   ]
 }
